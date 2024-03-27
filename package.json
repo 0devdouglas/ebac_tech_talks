@@ -1,0 +1,16 @@
+{
+  "name": "landing-page-evento",
+  "version": "1.0.0",
+  "description": "Landing Page de um Evento Ficticio",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel source/index.html source/styles/main.scss source/scripts/main.js"
+  },
+  "author": "Douglas",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
+    "sharp": "^0.31.3"
+  }
+}
